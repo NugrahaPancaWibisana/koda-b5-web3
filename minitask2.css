@@ -10,7 +10,7 @@ body {
 section {
   max-height: 400px;
   min-width: 380px;
-  background-color: tomato;
+  background-color: blueviolet;
   border: 3px solid black;
   margin: 0 50px;
   display: flex;
@@ -29,7 +29,7 @@ section div {
 section div div {
   min-width: 100px;
   min-height: 100px;
-  background-color: blueviolet;
+  background-color: chartreuse;
   border: 2px solid black;
   flex-grow: 1;
   flex-shrink: 1;
@@ -37,7 +37,6 @@ section div div {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   font-weight: 700;
   font-size: 40px;
   border-radius: 20px;
@@ -61,12 +60,11 @@ nav ul {
 nav ul li {
   font-size: large;
   font-weight: 700;
-  background-color: blueviolet;
+  background-color: chartreuse;
   padding: 5px 15px;
   max-width: 100px;
   border-radius: 20px;
   border: 2px solid black;
-  color: white;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
